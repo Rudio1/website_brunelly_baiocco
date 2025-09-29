@@ -17,7 +17,7 @@ const AboutMeDesktop = () => {
           />
         </div>
         <div className={styles.contentContainer}>
-          <h2 className={styles.title}>Sobre mim</h2>
+          <h2 className={styles.title}>Sobre</h2>
           <h3 className={styles.name}>Meu nome é Brunelly Baiocco</h3>
           <p className={styles.description}>
             Prazer, sou arquiteta de Vitória - ES, com mais de 5 anos de experiência e 

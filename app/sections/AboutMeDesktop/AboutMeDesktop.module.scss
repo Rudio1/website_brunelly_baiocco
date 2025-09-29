@@ -1,7 +1,12 @@
 .aboutSection {
   background-color: #FFFFFF;
-  padding: 4rem 2rem;
-  width: 100%;
+  padding: 4rem 0 0 0;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 .container {

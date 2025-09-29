@@ -62,7 +62,7 @@ export default function Header() {
         </div>
         <nav className={styles.nav}>
         <Link href="/" className={styles.navLink}>Início</Link>
-        <a href="#aboutme" className={styles.navLink} onClick={scrollToAboutMe}>Sobre Mim</a>
+        <a href="#aboutme" className={styles.navLink} onClick={scrollToAboutMe}>Sobre</a>
         <a href="#services" className={styles.navLink} onClick={scrollToServices}>Serviços</a>
         <Link href="/projetos" className={styles.navLink}>Projetos</Link>
         <Link href="/contato" className={styles.navLink}>Contato</Link>

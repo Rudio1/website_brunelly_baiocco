@@ -1,11 +1,11 @@
 .servicesSection {
-    margin-top: 60px;
     position: relative;
     height: 150vh;
     max-height: 1080px; /* limita altura máxima da seção */
     overflow: auto;
     padding: 6rem 2rem;
-    width: 100%;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
     background-image: url('/servicos_parallax.png');
     background-size: cover;
     background-position: center;
@@ -16,12 +16,12 @@
   }
   
   
-  /* Overlay branca sobre o fundo */
+  /* Overlay escura sobre o fundo */
   .servicesSection::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(255, 255, 255, 0.45);
+    background: rgba(0, 0, 0, 0.4);
     z-index: 1;
   }
   
@@ -43,18 +43,19 @@
   
   .title {
   font-size: 4rem;
-  font-weight: 700;
-  color: var(--color-text);
+  font-weight: 800;
+  color: #fff;
   margin-bottom: 1rem;
   line-height: 1.2;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .subtitle {
   font-size: 2rem;
-  font-weight: 400;
-  color: var(--color-text);
+  font-weight: 600;
+  color: #fff;
   margin: 0;
-  font-weight: 700;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 0, 0, 0.4);
 }
   
   /* Grid dos cards */
